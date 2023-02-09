@@ -1,0 +1,26 @@
+{
+  "name": "themosis-plugin",
+  "version": "1.0.0",
+  "description": "Themosis framework boilerplate plugin.",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "Themosis",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/themosis/theme/issues"
+  },
+  "homepage": "https://github.com/themosis/theme#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.58.0",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.11.1"
+  }
+}
